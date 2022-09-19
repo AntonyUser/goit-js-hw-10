@@ -18,3 +18,36 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.country-list li {
+  display: flex;
+  align-items: center;
+}
+
+.country-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.country-list__text {
+  display: inline-block;
+  margin: 0px;
+}
+
